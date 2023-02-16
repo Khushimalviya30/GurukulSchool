@@ -1,0 +1,78 @@
+<head>
+  <style>
+        .bg{
+          background-color: white;
+        }
+        .logo{
+          height: 90px;
+          width: 80px;
+          margin-left: 40px;
+        }
+        #navv{
+          color: black;
+          margin-left: 850px;
+        }
+        #navv:hover{
+          color: grey;
+        }
+        #navv1{
+          color: black;
+        }
+        #navv1:hover{
+          color: grey;
+        }
+    </style>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg bg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img class="logo" src="https://gurukulschool.org/assets/images/gurukul-logo.png" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="http://127.0.0.1:8000/" id="navv">Home</a>
+            </li>&emsp;
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"  id="navv1">
+                About
+              </a>
+              <ul class="dropdown-menu">
+                <li style="padding-top: 10px;"><a class="dropdown-item" href="http://127.0.0.1:8000/notes/overview/">&emsp;Gurukul Overview&emsp;&emsp;</a></li>
+                <li style="padding-top: 10px;"><a class="dropdown-item" href="http://127.0.0.1:8000/notes/g_body/">&emsp;Governing Body&emsp;&emsp;</a></li>
+                <li style="padding-top: 10px;padding-bottom: 10px;"><a class="dropdown-item" href="http://127.0.0.1:8000/notes/amenities/">&emsp;Amenities&emsp;&emsp;</a></li>
+              </ul>
+            </li>&emsp;
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="navv1">
+                Info
+              </a>
+              <ul class="dropdown-menu">
+                <li style="padding-top: 10px;"><a class="dropdown-item" href="http://127.0.0.1:8000/notes/n_board/">&emsp;Notice Board&emsp;&emsp;</a></li>
+                <li style="padding-top: 10px;padding-bottom: 10px;"><a class="dropdown-item" href="http://127.0.0.1:8000/notes/br_staff/">&emsp;Bus Route & Staff&emsp;&emsp;</a></li>
+              </ul>
+            </li>&emsp;
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="navv1">
+                Academics
+              </a>
+              <ul class="dropdown-menu">
+                <li style="padding-top: 10px;"><a class="dropdown-item" href="http://127.0.0.1:8000/notes/affiliation/">&emsp;Affiliation&emsp;&emsp;</a></li>
+                <li style="padding-top: 10px;padding-bottom: 10px;"><a class="dropdown-item" href="http://127.0.0.1:8000/notes/career/">&emsp;Carrer With Gurukul&emsp;&emsp;</a></li>
+              </ul>
+            </li>&emsp;
+            
+            <li class="nav-item">
+              <a class="nav-link" href="http://127.0.0.1:8000/notes/gallery/" id="navv1">Gallery</a>
+            </li>&emsp;
+            <li class="nav-item">
+              <a class="nav-link" href="http://127.0.0.1:8000/notes/contact/" id="navv1">Contact</a>
+            </li>&emsp;
+          </ul>
+        </div>
+      </div>
+    </nav> 
+</body>
